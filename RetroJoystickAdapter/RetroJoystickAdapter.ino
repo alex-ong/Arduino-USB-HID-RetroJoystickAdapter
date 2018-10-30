@@ -38,7 +38,7 @@ void setupJoysticks() {
   pinMode(DATA1, INPUT_PULLUP);
   pinMode(LATCH2, OUTPUT);
   pinMode(CLOCK2, OUTPUT);
-  pinMode(DATA2, INPUT);
+  pinMode(DATA2, INPUT_PULLUP);
 }
 
 #define latchlow digitalWrite(LATCH1, LOW); digitalWrite(LATCH2, LOW);
