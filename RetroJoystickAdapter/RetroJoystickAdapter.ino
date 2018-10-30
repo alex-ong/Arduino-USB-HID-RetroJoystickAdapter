@@ -35,7 +35,7 @@ uint8_t newStatusPort2[20];
 void setupJoysticks() {
   pinMode(LATCH1, OUTPUT);
   pinMode(CLOCK1, OUTPUT);
-  pinMode(DATA1, INPUT);
+  pinMode(DATA1, INPUT_PULLUP);
   pinMode(LATCH2, OUTPUT);
   pinMode(CLOCK2, OUTPUT);
   pinMode(DATA2, INPUT);
